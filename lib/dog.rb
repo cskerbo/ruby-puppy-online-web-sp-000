@@ -18,7 +18,7 @@ class Dog
   end
 
   def self.print_all
-    Song.all
+    puts Song.all
   end
 
 end
