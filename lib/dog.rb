@@ -7,13 +7,11 @@ class Dog
 
   def initialize(name)
     @name = name
-    @@names << self.name
     save
   end
 
   def save
     @@all << self
-
   end
 
   def self.all
@@ -26,8 +24,7 @@ class Dog
 
   def self.print_all
 
-    puts @@names.uniq
-
+    
   end
 
 end
